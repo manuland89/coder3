@@ -3,6 +3,43 @@
     padding: 0%;
     box-sizing: border-box;
 }
+header {
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.logo img {
+    float: left;
+    height: 120px;
+    width: 120px;
+
+}
+
+.barra {
+    text-align: right;
+    padding: 20px;
+}
+
+.barra ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.barra a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+.barra a:hover {
+    color: black;
+}
 
 form {
     width: 100%;
