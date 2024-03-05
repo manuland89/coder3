@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
-header {
+/* header { */
     background-color: blue;
     height: 150px;
     width: 100%;
@@ -13,14 +13,14 @@ header {
     color: aliceblue;
 }
 
-.logo img {
+/* .logo img { */
     float: left;
     height: 120px;
     width: 120px;
 
 }
 
-.barra {
+/* .barra { */
     text-align: right;
     padding: 20px;
 }
@@ -30,6 +30,62 @@ header {
     display: inline-block;
 
 }
+.navbar{
+    background-color: rgb(6, 6, 122);
+
+    height: 170px;
+}
+.navbar-brand{
+    color: white!important;
+    text-shadow: 0 0 5px;
+    font-size: 30px;
+}
+.navbar-brand:hover{
+    color: black !important;
+}
+.navbar-brand img{
+    height: 80px;
+    margin: 15px;
+    
+
+}
+.collapse navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+ .navbar-collapse{
+    
+/* display: flex !important; */
+    /* justify-content:flex-end !important; */
+    padding: 30px;
+    
+}
+.nav-link{
+    color: white !important;
+    text-shadow: 0 0 5px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: black !important;
+}
+footer{
+    color:white;
+    text-shadow: 0 0 5px;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    background-color: black     ;
+    margin-top: 0px;
+    
+}
+footer a{
+    text-decoration: none;
+    letter-spacing: 15px;
+    color: blue;
+    font-size: 50px;
+}
+
+
 
 .barra a {
     color: #fff;
@@ -95,3 +151,19 @@ form input::placeholder {
 .a href{
     margin: 300px;
 }
+/* @media only screen and (min-width: 768px) and (max-width:1024px) { 
+{
+    }
+    
+    .navbar {
+        height: 80  px;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        }
+}    
+}
+} */
+
