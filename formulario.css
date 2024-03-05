@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+    padding: 30px;
+    background-image: linear-gradient(rgba(65, 12, 150, 0.575), rgba(238, 130, 238, 0.548)), url(./chipa1.jpg);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline color(yellow)
+}
+
+form input {
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;
+}
+
+form textarea {
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px black solidç;
+}
+
+form textarea::placeholder {
+    color: rgba(235, 235, 33, 0.7);
+}
+
+form #enviar {
+    background-color: yellow;
+    font-size: 25px;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+form input::placeholder {
+    color: rgba(235, 235, 33, 0.7);
+}
+
+.mapa {
+    margin: 30p;
+    padding: 10px;
+}
+.a href{
+    margin: 300px;
+}

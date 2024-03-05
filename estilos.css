@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{font-family:sans-serif;
+background-color: aquamarine;
+font-size: 20px;
+background-image:url(./Multimedia/chipa1.jpg) ;
+background-attachment:fixed ;
+background-repeat: repeat;
+background-position: left;
+}
+
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #2654ee; border;
+    text-align: center;
+}
+.menu{ list-style:none;
+
+    }
+    h1{
+        color: blue;
+        font-size: 200px;
+        text-align: center;
+        font-family: serif;
+
+    }
+   .vid {
+    ;
+   }
+
+}
