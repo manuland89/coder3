@@ -20,7 +20,7 @@
 .navbar{
     background-color: rgb(6, 6, 122);
 
-    height: 170px;
+    min-height: 170px;
 }
 .navbar-brand{
     color: white!important;
